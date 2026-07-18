@@ -12,3 +12,4 @@ console.table([accountEmail,accountId,accountPass,accountAdd]);
 /* 
   preffered not to use var coz of scope{} issue , functional and block scope 
 */
+
