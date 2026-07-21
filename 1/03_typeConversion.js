@@ -28,6 +28,12 @@ let emptyStringB = Boolean("")
 
 let mixedB = Boolean("07aaris")
 
+console.log(nameB)
+console.log(ageB)
+console.log(isItIsB)
+console.log(emptyStringB)
+console.log(mixedB)
+
 
 
 
