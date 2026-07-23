@@ -121,10 +121,3 @@ const x = 1
 const y = 3
 
 console.log(Array.of(x,y))
-
-
-
-
-
-
-
