@@ -1,10 +1,10 @@
 let a =90 ;
 
-if(4 ) {
+if( 4 ) {
   const b = 0
   let a = 6
   var c = 80 
-  console.log('inner c: ',a)
+  console.log('inner c: ', a )
 
 }
 console.log(a)
