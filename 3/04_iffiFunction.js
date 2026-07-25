@@ -7,6 +7,7 @@
 // Greeting()
 
 (function Greeting() {
+  //named iffi
   console.log(`hii aaris`)
 })();
 
