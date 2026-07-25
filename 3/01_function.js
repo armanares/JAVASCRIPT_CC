@@ -1,15 +1,16 @@
-function calculateResult( val1,val2 , ...num1 ) {
+function calculateResult( val1 , val2 , ...num1 ) {
   return num1 ;
 }
 // ... is rest operator here 
-console.log(calculateResult(5,5,4,3,2))
+console.log(calculateResult(5,5,4,3,2)) 
 
-// 5 , 5 goes in val1 and val2
+// 5 , 5 goes in val1 and val2 
 
 const user =  {
   name: "arman" ,
   roll : 10 
 }
+
  // passsing object in a function
 
 function handleObject(anyobject) {
