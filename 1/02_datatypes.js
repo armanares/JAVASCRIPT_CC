@@ -1,4 +1,4 @@
-"use strict" ; // treat all code as  newer version of js , slthough its default but needed to know
+"use strict" ; // treat all code as  newer version of js , although its default but needed to know
 
 //alert(4) // we ARE USING Node.JS NOT WEB BROWSER
 
