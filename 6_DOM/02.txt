@@ -1,0 +1,7 @@
+// getElementById -> get element by id
+
+// queryselector -> select first matching element 
+
+byClass => . 
+tag => ' tag '
+byId => #
