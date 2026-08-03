@@ -30,3 +30,15 @@ textInDiv.textContent ="me tooo"
 div.appendChild(textInDiv)
 
 container.appendChild(div)
+
+const lists = document.querySelectorAll('.lists')
+
+// this we got the reference of node list , and im gonna convert this into array
+
+const arrayLists = Array.from(lists)
+
+arrayLists.forEach((li)=> {
+    li.style.color = "darkgreen"
+})
+
+
