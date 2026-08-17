@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple DOM example</title>
+  </head>
+  <body>
+      <section>
+        <img src="dinosaur.png" alt=" image of a red dinosaur">
+        <p>Here we will add a link to the <a href="https://www.mozilla.org/">Mozilla homepage</a></p>
+      </section>
+  </body>
+  <script>
+     const link = document.querySelector("a");
+     link.textContent = "Mozilla Developer Network";
+     link.href = "https://developer.mozilla.org";
+
+     const sect = document.querySelector("section");
+
+     const para = document.createElement("p");
+     para.textContent = "We hope you enjoyed the ride.";
+
+     sect.appendChild(para);
+
+     const text = document.createTextNode(
+      " — the premier source for web development knowledge.",
+     );
+     const linkPara = document.querySelector('p')
+
+    //  linkPara.appendChild(text);
+
+    //  linkPara.removeChild(text);
+
+    /*moving and removing elements*/
+
+    //  sect.appendChild(linkPara); // this move the linkpara to section 
+
+    //  sect.removechil(linkpara); // this remoove whole <p> tag , linkpara
+
+    //  linkPara.remove();// remove linkpara
+
+    // linkPara.parentNode.removeChild(linkPara);
+
+    // styles
+
+    para.style.color = "white";
+    para.style.backgroundColor = "black";
+    para.style.padding = "10px";
+    para.style.width = "250px";
+    para.style.textAlign = "center";
+
+    // adding class 
+
+    para.classList.add("highlight");
+  </script>
+</html>
